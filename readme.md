@@ -1,6 +1,6 @@
 # Probabilistic Ranking-Aware Ensembles (PRAE).
 
-![image](https://github.com/anonymous-iccv2021/PRAE/blob/master/Pipeline.PNG)
+![image](https://github.com/anonymous-iccv2021/PRAE/blob/master/pipeline.PNG)
 
 ## Results  
 
