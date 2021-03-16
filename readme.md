@@ -5,7 +5,7 @@
 ## Results  
 
 **FCOS (ResNext101-FPN) with 42.5% mAP**  
-&
+**&**  
 **Mask R-CNN (Res2Net101-FPN with 43.6% mAP**  
 
 | Methods | IOU threshold | sigma | weight | mAPl<br> (COCO val) |
