@@ -2,11 +2,19 @@
 
 ![image](https://github.com/anonymous-iccv2021/PRAE/blob/master/Pipeline.PNG)
 
-## Models  
+## Results  
 
 FCOS (ResNext101-FPN) with 42.5% mAP
-
+&
 Mask R-CNN (Res2Net101-FPN with 43.6% mAP
+
+| Methods | IOU threshold | sigma | weight | mAPl<br> (COCO val) |
+| :-: | :-: | :-: | :-: | :-: |
+| NMS | 0.65 | None | [2, 3] | 44.6 |
+| Soft-NMS | 0.7 | 0.1 | [4, 5] | 44.7 |
+| NMW | 0.7 | None | [3, 4] | 45.7 |
+| WBF | 0.7 | None | [2, 3] | 45.2 |
+| **PRAE** | **0.7** | **None** | **[1, 1]** | **46.7** |
 
 ## Prerequisites 
 
@@ -20,8 +28,8 @@ Mask R-CNN (Res2Net101-FPN with 43.6% mAP
 
 
 ## Usage
-
+```bash
 python ensemble-2-models.py # implement PRAE  
 python evaluate.py # calculate mAP on COCO2017 validation set
-
+```
 
